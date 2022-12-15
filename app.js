@@ -1,5 +1,5 @@
 import express from "express";
-import connect from "./schemas";
+const connect = require("./schemas");
 const app = express();
 
 const postsRouter = require("./routes/post");
