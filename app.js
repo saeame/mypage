@@ -1,5 +1,5 @@
 import express from "express";
-const connect = require("./schemas");
+const connect = require("./schemas/index");
 const app = express();
 
 const postsRouter = require("./routes/post");
