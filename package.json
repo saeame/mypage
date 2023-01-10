@@ -1,12 +1,10 @@
 {
   "name": "node_board",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 🖥️ 프로젝트 소개",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,9 @@
   "homepage": "https://github.com/saeame/Node_basic#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
